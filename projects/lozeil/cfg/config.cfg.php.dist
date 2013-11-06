@@ -1,0 +1,21 @@
+<?php
+/* Norska -- Copyright (C) No Parking 2013 - 2013 */
+
+$config = array(
+	'git' => array(
+		'url' => "git://git.noparking.net/lozeil.git",
+	),
+	'mysql' => array(
+		'host' => "localhost",
+		'user' => "root",
+		'pass' => "password",
+		'name' => "dbname",
+	),
+	'parameters' => array(
+		'root_url' => "http://127.0.0.1/lozeil",
+		'path'     =>  dirname(__FILE__)."/../var/project/",
+		'owner'    => "http",
+		'group'    => "http",
+		'smtp'     => "smtp.noparking.net",
+	),
+);

@@ -1,0 +1,3 @@
+[submodule "norska"]
+	path = norska
+	url = git://git.noparking.net/norska.git
